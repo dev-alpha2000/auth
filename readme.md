@@ -54,19 +54,32 @@ Protected Routes: Some routes (like the dashboard) are accessible only after log
 Logout: Users can log out, which clears their session and JWT token, preventing access to protected routes.
 
 
-Example
+## Example
+
 Sign Up Page: A form that accepts user details (e.g., email, password) and submits to a backend API to create an account.
+
 Login Page: A form where users enter their credentials, which are authenticated via the backend. If successful, a JWT token is received and stored, allowing access to protected routes.
+
 Protected Dashboard: Once logged in, users can access the dashboard or other protected routes. If they log out, they lose access.
-Dependencies
+
+## Dependencies
+
 React: Frontend framework for building the UI.
+
 React Router: For handling protected routes and navigation.
+
 Axios or Fetch API: For communicating with the backend API.
+
 JWT (JSON Web Token): For managing user authentication and sessions.
+
 CSS or Styled Components: For styling the UI components and forms.
-Security Considerations
+
+## Security Considerations
+
 Use HTTPS to ensure secure transmission of authentication data.
+
 Store JWT tokens securely in either HTTP-only cookies or local storage.
+
 Ensure password hashing and secure authentication on the backend.
-Contributing
-Contributions are welcome! If you find any issues or have suggestions for 
+
++
